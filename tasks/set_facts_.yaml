@@ -125,6 +125,6 @@
         - named
         - haproxy
         - httpd
-        - rpcbind
- #       - nfs-server
+        # - rpcbind
+        # - nfs-server
   when: ansible_distribution_major_version == "9"
