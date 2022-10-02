@@ -98,7 +98,7 @@
         - bash-completion
         - python3-libselinux
         - podman
-        - nfs-utils
+ #       - nfs-utils
   
   - set_fact:
       dhcppkgs:
@@ -126,5 +126,5 @@
         - haproxy
         - httpd
         - rpcbind
-        - nfs-server
+ #       - nfs-server
   when: ansible_distribution_major_version == "9"
