@@ -17,14 +17,14 @@ ppc64le: false
 uefi: false
 chronyconfig:
   enabled: false
-# setup_registry:
-#   deploy: false
-#   autosync_registry: false
-#   registry_image: docker.io/library/registry:2
-#   local_repo: "ocp4/openshift4"
-#   product_repo: "openshift-release-dev"
-#   release_name: "ocp-release"
-#   release_tag: "4.11.18-x86_64"
-#   registry_user: "admin"
-#   registry_password: "admin"
+setup_registry:
+  deploy: false
+  autosync_registry: false
+  registry_image: docker.io/library/registry:2
+  local_repo: "ocp4/openshift4"
+  product_repo: "openshift-release-dev"
+  release_name: "ocp-release"
+  release_tag: "4.11.18-x86_64"
+  registry_user: "admin"
+  registry_password: "admin"
 machineconfig_path: ../machineconfig
